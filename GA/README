@@ -1,0 +1,19 @@
+   GA.c
+   ========
+   is a very simple genetic algorithm implementation for a toy model. The
+   organisms are n-bits computer words. The fitness function is the number of
+   ones in the word.
+   The population is produced by initializing m words randomly. Then
+   iteratively evaluate the fitness of each vector, keep the b vectors with the
+   highest values of it and apply 1-point corssover to these, producing b new
+   words -the parents are chosen randomly, there's no competition-. The new b
+   words substitute the bottom b words in the fitness-sorted population.
+   Break the loop when bmax generations have been run or when a word reaches a
+   fitness of 1.
+   ========
+   HOW TO USE IT
+   It is rather simple: change the #define section with the desired values,
+   compile and run. Change the program to suit your needs.
+   ========
+   Author Gonzalo S Nido <insectopalo@gmail.com>
+

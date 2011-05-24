@@ -1,0 +1,15 @@
+   Embryos Git Repo
+   ========
+   I have open this repository to store the small projects that I start with
+   educational or recreational purposes. I always keep feeling that one day
+   these little programs might become useful in a way, at least for myself.
+   ========
+   - GA
+     Genetic algorithm toy model implementation. Have a look to the readme
+     in the folder. It is a very short and easy-to-understand implementation
+     in C following the instructions of the tutorial 8 of the Artificial
+     Intelligence course from the University of Otago.
+     http://www.cs.otago.ac.nz/cosc343/Tutes/t08-ga.pdf
+   ========
+   Author Gonzalo S Nido <insectopalo@gmail.com>
+
